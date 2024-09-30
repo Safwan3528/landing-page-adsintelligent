@@ -37,10 +37,10 @@ export default function IntroAnimation({ onAnimationComplete }: IntroAnimationPr
         onAnimationComplete={() => setAnimationComplete(true)}
       >
         <Image
-          src="/placeholder.svg?height=150&width=150"
+          src="/images/logo.png?height=150&width=150"
           alt="Company Logo"
-          width={150}
-          height={150}
+          width={170}
+          height={170}
           className="mb-4"
         />
         <motion.h1

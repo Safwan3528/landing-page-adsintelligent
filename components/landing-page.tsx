@@ -44,7 +44,7 @@ export default function LandingPage() {
         "1 - 3 PRODUCT",
       ],
       price: "RM700",
-      link: "https://example.com/contact-starter",
+      link: "https://api.whatsapp.com/send?phone=+60175058473",
     },
     {
       name: "PAKEJ INJECTION",
@@ -59,7 +59,7 @@ export default function LandingPage() {
         "1 - 3 PRODUCT",
       ],
       price: "RM369",
-      link: "https://example.com/contact-growth",
+      link: "https://api.whatsapp.com/send?phone=+60175058473",
     },
     {
       name: "PAKEJ TARGET",
@@ -73,7 +73,7 @@ export default function LandingPage() {
         "1 PRODUCT",
       ],
       price: "RM189",
-      link: "https://example.com/contact-pro",
+      link: "https://api.whatsapp.com/send?phone=+60175058473",
     },
     {
       name: "PAKEJ BASIC",
@@ -86,7 +86,7 @@ export default function LandingPage() {
         "1 IKLAN",
       ],
       price: "RM140",
-      link: "https://example.com/contact-enterprise",
+      link: "https://api.whatsapp.com/send?phone=+60175058473",
     },
   ];
 
@@ -117,34 +117,37 @@ export default function LandingPage() {
 
   const feedback = [
     {
-      name: "John Doe",
-      company: "Tech Startup X",
-      imageUrl: "",
-      text: "FB Booster increased our ROI by 300% in just two months. Their expertise is unmatched!",
+      imageUrl: "/images/1.jpg",
     },
     {
-      name: "Jane Smith",
-      company: "E-commerce Store Y",
-      imageUrl: "",
-      text: "Our conversion rates skyrocketed after working with FB Booster. Highly recommended!",
+      imageUrl: "/images/2.jpg",
     },
     {
-      name: "Mike Johnson",
-      company: "Local Business Z",
-      imageUrl: "",
-      text: "The personalized approach and attention to detail provided by FB Booster is exceptional.",
+      imageUrl: "/images/3.jpg",
     },
     {
-      name: "Sarah Lee",
-      company: "Fashion Brand A",
-      imageUrl: "",
-      text: "FB Booster helped us reach our target audience effectively. Our sales have never been better!",
+      imageUrl: "/images/4.jpg",
     },
     {
-      name: "Tom Brown",
-      company: "SaaS Company B",
-      imageUrl: "",
-      text: "The team at FB Booster truly understands the nuances of Facebook advertising. They're a game-changer!",
+      imageUrl: "/images/5.jpg",
+    },
+    {
+      imageUrl: "/images/6.jpg",
+    },
+    {
+      imageUrl: "/images/7.jpg",
+    },
+    {
+      imageUrl: "/images/8.jpg",
+    },
+    {
+      imageUrl: "/images/9.jpg",
+    },
+    {
+      imageUrl: "/images/10.jpg",
+    },
+    {
+      imageUrl: "/images/11.jpg",
     },
   ];
 
@@ -212,7 +215,7 @@ export default function LandingPage() {
               <nav className="flex items-center justify-between py-4">
                 <Link href="/" className="flex items-center">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="/images/logo.png"
                     alt="FB Booster Logo"
                     width={40}
                     height={40}
@@ -280,7 +283,7 @@ export default function LandingPage() {
                     className="bg-blue-500 text-white hover:bg-blue-600 transition-colors"
                   >
                     <Link
-                      href="https://example.com/contact-hero"
+                      href="https://api.whatsapp.com/send?phone=+60175058473"
                       className="flex items-center"
                     >
                       <MessageCircle className="mr-2 h-5 w-5" />
@@ -317,7 +320,7 @@ export default function LandingPage() {
                       className="bg-green-500 text-white hover:bg-green-600 transition-colors"
                     >
                       <Link
-                        href="https://example.com/contact-service-kami"
+                        href="https://api.whatsapp.com/send?phone=+60175058473"
                         className="flex items-center"
                       >
                         <MessageCircle className="mr-2 h-5 w-5" />
@@ -425,7 +428,7 @@ export default function LandingPage() {
                       className="bg-purple-500 text-white hover:bg-purple-600 transition-colors"
                     >
                       <Link
-                        href="https://example.com/contact-feedback"
+                        href="https://api.whatsapp.com/send?phone=+60175058473"
                         className="flex items-center"
                       >
                         <MessageCircle className="mr-2 h-5 w-5" />
@@ -512,7 +515,7 @@ export default function LandingPage() {
                       className="bg-orange-500 text-white hover:bg-orange-600 transition-colors"
                     >
                       <Link
-                        href="https://example.com/contact-syarat-utama"
+                        href="https://api.whatsapp.com/send?phone=+60175058473"
                         className="flex items-center"
                       >
                         <MessageCircle className="mr-2 h-5 w-5" />
@@ -550,7 +553,7 @@ export default function LandingPage() {
                       className="bg-blue-500 text-white hover:bg-blue-600 transition-colors"
                     >
                       <Link
-                        href="https://example.com/contact-what-to-provide"
+                        href="https://api.whatsapp.com/send?phone=+60175058473"
                         className="flex items-center"
                       >
                         <MessageCircle className="mr-2 h-5 w-5" />
@@ -568,10 +571,10 @@ export default function LandingPage() {
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="text-center md:text-left mb-4 md:mb-0 flex items-center">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="/images/logo.png"
                     alt="FB Booster Logo"
-                    width={40}
-                    height={40}
+                    width={120}
+                    height={120}
                     className="mr-2"
                   />
                   <div>
