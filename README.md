@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Facebook Ads Service Landing Page
+
+![Ads Intelligent](https://github.com/user-attachments/assets/5264b855-d4d3-46e9-908f-b7f1879a7948)
+https://adsintelligent.netlify.app/
+
+
+
 ## Getting Started
 
 First, run the development server:
