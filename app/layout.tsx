@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Ads Intelligent",
-  description: "Design By Safwan Rahimi",
+  description: "Design by Safwan Rahimi",
 };
 
 export default function RootLayout({
