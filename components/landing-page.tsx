@@ -117,37 +117,70 @@ export default function LandingPage() {
 
   const feedback = [
     {
+      name: "John Doe",
+      company: "Tech Startup X",
       imageUrl: "/images/1.jpg",
+      text: "",
     },
     {
+      name: "Jane Smith",
+      company: "E-commerce Store Y",
       imageUrl: "/images/2.jpg",
+      text: "",
     },
     {
+      name: "Mike Johnson",
+      company: "Local Business Z",
       imageUrl: "/images/3.jpg",
+      text: "",
     },
     {
+      name: "Sarah Lee",
+      company: "Fashion Brand A",
       imageUrl: "/images/4.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/5.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/6.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/7.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/8.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/9.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/10.jpg",
+      text: "",
     },
     {
+      name: "Tom Brown",
+      company: "SaaS Company B",
       imageUrl: "/images/11.jpg",
+      text: "",
     },
   ];
 
@@ -363,23 +396,14 @@ export default function LandingPage() {
                                   key={index}
                                   className="flex-1 bg-white shadow-md"
                                 >
-                                  <CardHeader>
-                                    <CardTitle>{item.name}</CardTitle>
-                                    <p className="text-sm text-gray-500">
-                                      {item.company}
-                                    </p>
-                                  </CardHeader>
                                   <CardContent>
                                     <Image
                                       src={item.imageUrl}
                                       alt={`WhatsApp feedback from ${item.name}`}
-                                      width={300}
-                                      height={200}
+                                      width={200}
+                                      height={100}
                                       className="w-full h-auto rounded-md mb-4"
                                     />
-                                    <p className="italic text-gray-700">
-                                      "{item.text}"
-                                    </p>
                                   </CardContent>
                                 </Card>
                               ))}
